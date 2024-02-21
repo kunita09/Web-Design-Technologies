@@ -1,0 +1,96 @@
+
+body {
+    background-color: #fcfcfc;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    margin: 0px;
+    
+}
+body header p::first-line{  /*ทำelementบรรทัดแรกเป็นตัวใหญ่ pseudo element*/
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+header p{
+    margin-top: 0px;
+    margin-right: 40px;
+    align-items: center;
+    padding: 0px;
+    height: 60px;
+}
+
+header,footer {  /*Grouping selector*/
+    
+    padding-bottom: none;
+    text-align: end;
+    color: #fff;
+    background-color: #028644;
+}
+body footer{
+    margin-top: auto;
+    padding: 10px;
+    height: 30px;
+}
+
+
+article {
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    float: center;
+    color: rgb(3, 3, 3);
+    
+    
+}
+
+
+a img{
+    width: 300px;
+    height: 200px;
+    display: flex;    
+    transition: 0.5s;
+}
+
+.pe:hover{   /*pseudo class*/
+    background: #fff;
+    width: 320px;
+    height: 220px;
+    
+}
+p.gb{ /*class selector*/
+    font-weight: bold;
+    color: black;
+    float: right;
+}
+m2,mv2{  /*Grouping selector*/
+    float: right;
+    align-items: center;
+    text-align: center;
+}
+m1,mv1{    /*Grouping selector*/
+    float: left;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+aside{
+    padding: 30px 30px 30px 30px;
+}
+aside#v1,aside#v2{  /*id selector*/
+    float: left;
+    padding: 30px 70px 30px 30px;
+    font-size: 5px;
+    align-items: center;
+    height: 300px;
+}
+
+p.text{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(87, 187, 96, 0.651);
+    width: 125px;
+    align-items: center;
+   margin-top: 0px;
+}

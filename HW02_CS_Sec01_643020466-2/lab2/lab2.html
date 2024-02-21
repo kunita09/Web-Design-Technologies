@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>document.createElement("myCode")</script>
+    <style>
+        myCode {
+            display: block;
+            background-color: white;
+            padding: 50px;
+            font-size: 30px;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+
+        header,
+        footer,
+        section,
+        article {
+            border: 1px solid black;
+            margin: 5px;
+            margin-bottom: 15px;
+            padding: 8px;
+            background-color: rgb(176, 248, 221);
+        }
+
+        header,
+        footer {
+            color: white;
+            background-color: rgb(1, 107, 42);
+            margin: 5px;
+        }
+
+        header {
+            font-family: Times Roman;
+            font-style: bold;
+
+        }
+
+        section {
+            background-color: white;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Assingnment#2 </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Menu1</li>
+            <li>Menu2</li>
+            <li>Menu3</li>
+        </ul>
+    </nav>
+    <article>
+        <h3>HTML5</h3>
+        <section>
+            <h3>what is HTML5 (video)</h3>
+            <video width="300px" height="200px" controls>
+                <source src="/video_for_ass2.mp4">
+            </video>
+        </section>
+
+        <section>
+            
+            <h3>Image</h3>
+            <img src="image_for_ass2.jpg" alt="HTML5" 
+            style="width: 400px; height: 200px; clear: right" >
+            <aside style="float: right;">
+                <h3>Canvas</h3>
+                <canvas id="myCanvas"></canvas>
+                <script style="background-color: #009639;">
+                    let c = document.getElementById("myCanvas");
+                    let ctx = c.getContext("2d");
+                    ctx.fillStyle = "#009639";
+                    ctx.fillRect(0, 0, 125, 75);
+
+                </script>
+            </aside>
+        </section>
+
+    </article>
+
+    <footer>
+        <p>&copy; 2015 WDT. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

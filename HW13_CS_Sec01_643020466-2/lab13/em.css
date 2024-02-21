@@ -1,0 +1,121 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h3
+ {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    padding: 0;
+}
+
+input[type="date"]::-webkit-datetime-edit {
+    display: none;
+}
+
+input[type="date"] {
+    vertical-align: middle;
+    padding: 1px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+button[type="submit"] {
+    font-size: 1rem;
+}
+
+input[type="text"][value="http://"] {
+    width: 100%;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 64px;
+    padding: 16px;
+    padding-bottom: 48px;
+    width: 64em;
+}
+
+fieldset * {
+    line-height: 160%;
+}
+
+fieldset section {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset section div {
+    padding: 8px;
+}
+
+fieldset section div label:first-of-type {
+    font-weight: bold;
+}
+
+fieldset section div .require::after {
+    content: " *";
+    color: #f00;
+}
+
+fieldset section div .sub {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: min-content;
+}
+
+fieldset section div .sub input[type="text"]:not([name="first"], [name="last"]) {
+    width: 100%;
+}
+
+fieldset section div .sub .text {
+    padding: 1px 2px;
+}
+
+fieldset section:first-of-type>div:first-of-type {
+    background: rgba(255, 255, 0, 0.19);
+}
+
+fieldset section:first-of-type div:first-of-type select[name="position"] {
+    width: 50%;
+    height: 1.5rem;
+}
+
+fieldset section:last-of-type div:last-of-type{
+    margin-top: auto;
+}
+
+thead{
+    background-color: rgba(128, 128, 128, 0.181);
+   
+    border-bottom: 2px solid;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgba(235, 235, 235, 0.488);
+}
+
+td:hover{
+    background-color: rgb(124, 124, 124);
+    color: aliceblue;
+}

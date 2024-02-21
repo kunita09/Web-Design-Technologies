@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="em.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>
+                <h1>Employee Application</h1>
+            </legend>
+            <section>
+                <div>
+                    <label for="position" class="require">Which position are you applying for?</label> <br>
+                    <select name="position" id="position">
+                        <option value="0" hidden></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="require">Are you willing to relocate?</label> <br>
+                    <input type="radio" name="relocate" id="Yes" checked><label for="Yes">Yes</label> <br>
+                    <input type="radio" name="relocate" id="No"><label for="No">No</label>
+                </div>
+                <div>
+                    <label class="require">When can you start?</label> <br>
+                    <span class="sub">
+                        <input type="text" maxlength="2" size="2" pattern="[0-9]{2}">
+                        <div class="text">MM</div>
+                    </span> /
+                    <span class="sub">
+                        <input type="text" maxlength="2" size="2" pattern="[0-9]{2}">
+                        <div class="text">DD</div>
+                    </span> /
+                    <span class="sub">
+                        <input type="text" maxlength="4" size="4" pattern="[0-9]{4}">
+                        <div class="text">YYYY</div>
+                    </span>
+                    <input type="date" name="date">
+                </div>
+                <div>
+                    <label for="">Portfolio Web Site</label> <br>
+                    <input type="text" value="http://">
+                </div>
+                <div>
+                    <label for="">Attach a Copy of Your Resume</label> <br>
+                    <input type="file">
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Your Contact Information</h3>
+                </div>
+                <div>
+                    <label for="" class="require">Name</label> <br>
+                    <span class="sub">
+                        <input type="text" name="first" size="8">
+                        <div class="text">First</div>
+                    </span>
+                    <span class="sub">
+                        <input type="text" name="last" size="16">
+                        <div class="text">Last</div>
+                    </span>
+                </div>
+                <div>
+                    <label for="" class="require">Email Address</label> <br>
+                    <input type="email" name="email" size="48">
+                </div>
+                <div>
+                    <label class="require">Phone</label> <br>
+                    <span class="sub">
+                        <input type="text" maxlength="3" size="3" pattern="[0-9]{3}">
+                        <div class="text">###</div>
+                    </span> -
+                    <span class="sub">
+                        <input type="text" maxlength="3" size="3" pattern="[0-9]{3}">
+                        <div class="text">###</div>
+                    </span> -
+                    <span class="sub">
+                        <input type="text" maxlength="4" size="4" pattern="[0-9]{4}">
+                        <div class="text">####</div>
+                    </span>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </section>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

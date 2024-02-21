@@ -1,0 +1,46 @@
+
+.nav{
+    margin-top: 30px; 
+    margin-right: 50px;
+    color: aliceblue;
+    
+}
+
+.nav-link:hover{
+    
+    background-color: rgb(245, 194, 255);
+}
+.img-fluid{
+    margin-bottom: 20px;
+    width: 500px;
+    height: 450px;
+   
+    
+}
+.table{
+    
+    background-color: rgb(255, 234, 253);
+}
+.one{
+    padding-bottom: 20px;
+}
+.fs-5{
+    text-align: center;
+}
+.fs-3{
+    padding-top: 50px;
+}
+i{
+    color: rgb(231, 75, 75);
+}
+.row justify-content-md-center{
+    width: 100%;
+    background-color: beige;
+}
+p{
+    font-family: 'Sarabun', sans-serif;
+    
+}
+a{
+    color: black;
+}

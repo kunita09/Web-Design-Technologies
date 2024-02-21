@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+ul, h1{
+    list-style-type: none;
+    
+    padding-bottom: 0;
+    overflow: hidden;                       /*overflow*/
+    background-color: rgb(1, 66, 44);
+    font-family: 'Mitr', sans-serif;        /*font*/
+}
+
+li{
+    float: left;
+    clear: none;
+}
+
+
+li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 153, 33);
+    border-radius: 50px 50px 0 0;               /*text*/
+   
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.815);
+}
+
+.dropdown-content a {
+    color: rgb(0, 110, 28);
+    padding: 12px 16px;
+    text-decoration: none;              /*text*/
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #c5c5c5}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 25px ;
+   
+    
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/26/16/04/mountains-5223649_960_720.png);
+    background-size: 13%;
+    
+    
+    
+}
+
+h1 a{
+    
+    font-size: 18px;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;      
+    
+}
+article{
+    padding: 10px 16em 16px 16em;
+    font-family: 'Sriracha', cursive;          /*font*/
+    
+    background-color: rgb(236, 236, 236);
+}
+
+
+p{
+    text-indent: 5em;                     /*text*/
+    margin: 1em;
+    border-left: black solid 6px;
+    padding: 1em 2em 1em 2em;
+    line-height: 30px;
+    background-color: #ffffff;
+    border-radius: 0mm 5mm 5mm 0mm ;
+    
+}
+p::first-letter {       /*font text*/
+    font-weight: bold;
+    font-size: 2em;
+}
+.camp{
+    text-align: center;
+    padding-left: 12.5em;
+    font-size: 1.5em;
+    text-decoration: underline;  /*text-decoration*/
+}
+#camping{
+    width: 22em;
+    height: 30em;
+    margin-top: 25px;
+    padding-left: 20em;
+}
+p .c1{
+    width: 25em;
+    height: 28em;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 15em;
+}
+.c2{
+    width: 28em;
+    height: 22em;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 14em;
+}
+.c3{
+    width: 28em;
+    height: 22em;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 14em;
+    
+}
+footer h1{
+    text-align: left;
+    padding: 15px;
+    margin: 0;
+}
+span{
+    font-size: 12px;      /*font*/
+    
+}
